@@ -11,6 +11,11 @@ body {
 	background-color: white; 
 }
 
+header {
+	text-align: center;
+	color: black;
+}
+
 h1, h2, strong {
 	color: black;
 }
@@ -18,14 +23,16 @@ h1, h2, strong {
 p {
 	text-align: justify;
 }
-.centered {
-	text-align: center;
-}
 
 code, pre {
 	background: #eee;
 	border-left: 2px solid #69c;
 	border-bottom: 1px solid #69c;
+	/*ooooh pretty*/
 	padding: 1em;
 	color: black;
+}
+
+.centered {
+	text-align: center;
 }
