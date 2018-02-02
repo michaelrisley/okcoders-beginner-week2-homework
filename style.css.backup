@@ -1,0 +1,38 @@
+body {
+	margin: 0 auto;
+	max-width: 80%;
+	line-height: 1.5;
+	/*space between lines of text*/
+	padding: 4em 1em 4em 1em;
+	/*top left bottom right - if you specify two numbers that's top/bottom and left/right*/
+	font-family: "Roboto", "Helvetica", sans-serif;
+	/*specify fonts in quotes, but specify families without quotes*/
+	color: grey;
+	background-color: white; 
+}
+
+header {
+	text-align: center;
+	color: black;
+}
+
+h1, h2, strong {
+	color: black;
+}
+
+p {
+	text-align: justify;
+}
+
+code, pre {
+	background: #eee;
+	border-left: 2px solid #69c;
+	border-bottom: 1px solid #69c;
+	/*ooooh pretty*/
+	padding: 1em;
+	color: black;
+}
+
+.centered {
+	text-align: center;
+}

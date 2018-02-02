@@ -1,38 +1,62 @@
 body {
-	margin: 0 auto;
-	max-width: 80%;
-	line-height: 1.5;
-	/*space between lines of text*/
-	padding: 4em 1em 4em 1em;
-	/*top left bottom right - if you specify two numbers that's top/bottom and left/right*/
-	font-family: "Roboto", "Helvetica", sans-serif;
-	/*specify fonts in quotes, but specify families without quotes*/
-	color: grey;
-	background-color: white; 
+	font-family: 'Roboto', 'Helvetica', serif;
+	background-color: white;
 }
 
-header {
+h1 {
 	text-align: center;
-	color: black;
-}
-
-h1, h2, strong {
-	color: black;
+	font-size: 50px;
 }
 
 p {
 	text-align: justify;
 }
 
-code, pre {
-	background: #eee;
-	border-left: 2px solid #69c;
-	border-bottom: 1px solid #69c;
-	/*ooooh pretty*/
-	padding: 1em;
+input {
+	font-size: 12px;
+}
+
+table {
+	width: 100%;
+}
+
+a {
+	color: red;
+}
+
+a:hover {
 	color: black;
 }
 
-.centered {
-	text-align: center;
+.topnavigation {
+	background-color: black;
+	overflow: hidden;
+}
+
+.topnavigation a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnavigation a:hover {
+    background-color: red;
+    color: black;
+}
+
+.content {
+	margin: 0 auto;
+	max-width: 90%;
+	line-height: 1.5;
+}
+
+.disclaimer {
+	margin: 0 auto;
+	max-width: 90%;
+	line-height: 1.5;
+	font-size: 12px;
 }
